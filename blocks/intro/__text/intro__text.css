@@ -1,0 +1,12 @@
+@import url("__item/text__item.css");
+
+.intro__text {
+    margin-top: 35px;
+    width: 683px;
+
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #ffffff;
+}

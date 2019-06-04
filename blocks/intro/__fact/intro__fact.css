@@ -1,0 +1,10 @@
+@import url("_bold/intro__fact_bold.css");
+
+.intro__fact {
+    margin: 0;
+    font-family: Inter;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #ffffff;
+}

@@ -1,0 +1,72 @@
+@import url("__title/intro__title.css");
+@import url("__text/intro__text.css");
+@import url("__facts/intro__facts.css");
+@import url("__fact/intro__fact.css");
+
+.intro {
+    width: 985px;
+    margin: 84px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        width: 91%; 
+        margin-top: 90px;
+    }
+    .intro__title {
+        width: 100%;
+    }
+    .intro__text {
+        width: 695px;
+    }
+    .intro__facts {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        width: 94%;
+        margin-top: 84px;
+    }
+    .intro__text {
+        width: 100%;
+    }
+    .intro__facts {
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        margin: auto;
+        margin-top: 64px;
+        width: 91%;
+    }
+    .intro__title {
+        width: 72%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .intro__text {
+        font-size: 16px;
+        line-height: 27px;
+        margin-top: 30px;
+    }
+    .intro__fact {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .intro__title {
+        width: 80%;
+    }
+    .intro__text {
+        margin-top: 40px;
+    }
+    .intro__facts {
+        margin-top: 35px;
+    }
+}
